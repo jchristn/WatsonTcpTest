@@ -13,3 +13,4 @@ C:\code\watson\watsontcptest\WatsonTcpTest\obj\Debug\netcoreapp3.1\WatsonTcpTest
 C:\code\watson\watsontcptest\WatsonTcpTest\obj\Debug\netcoreapp3.1\WatsonTcpTest.dll
 C:\code\watson\watsontcptest\WatsonTcpTest\obj\Debug\netcoreapp3.1\WatsonTcpTest.pdb
 C:\code\watson\watsontcptest\WatsonTcpTest\obj\Debug\netcoreapp3.1\WatsonTcpTest.genruntimeconfig.cache
+C:\Code\Watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\netcoreapp3.1\WatsonTcpTest.csproj.CoreCompileInputs.cache

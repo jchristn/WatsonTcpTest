@@ -11,7 +11,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "WatsonTcp/4.1.12.3": {
+      "WatsonTcp/4.1.12.4": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
@@ -57,10 +57,10 @@
         "packageIcon.png"
       ]
     },
-    "WatsonTcp/4.1.12.3": {
-      "sha512": "TEUaF6CVOAQOc9ziSAh0AAAKfwHGYgb3xq/9csKDpqK8vlfnpsvGssRx0lSOrG39wNmR7nRQZHJhzd14MhcsTQ==",
+    "WatsonTcp/4.1.12.4": {
+      "sha512": "XFd99d3dmrfcxplUp+B+7/yNVNn+ajIvNO7WKKK0y5Sian+iu3cqXZ+5zKBfGK55CR7L5QGyuk2oBmxg9En9JA==",
       "type": "package",
-      "path": "watsontcp/4.1.12.3",
+      "path": "watsontcp/4.1.12.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -68,14 +68,14 @@
         "lib/net461/WatsonTcp.dll",
         "lib/netstandard2.0/WatsonTcp.dll",
         "lib/netstandard2.0/WatsonTcp.xml",
-        "watsontcp.4.1.12.3.nupkg.sha512",
+        "watsontcp.4.1.12.4.nupkg.sha512",
         "watsontcp.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "WatsonTcp >= 4.1.12.3"
+      "WatsonTcp >= 4.1.12.4"
     ]
   },
   "packageFolders": {
@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\watson\\watsontcptest\\WatsonTcpTest\\WatsonTcpTest.csproj",
+      "projectUniqueName": "C:\\code\\watson\\WatsonTcpTest\\WatsonTcpTest\\WatsonTcpTest.csproj",
       "projectName": "WatsonTcpTest",
-      "projectPath": "C:\\code\\watson\\watsontcptest\\WatsonTcpTest\\WatsonTcpTest.csproj",
+      "projectPath": "C:\\code\\watson\\WatsonTcpTest\\WatsonTcpTest\\WatsonTcpTest.csproj",
       "packagesPath": "C:\\Users\\joelc\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\watson\\watsontcptest\\WatsonTcpTest\\obj\\",
+      "outputPath": "C:\\code\\watson\\WatsonTcpTest\\WatsonTcpTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -126,7 +126,7 @@
         "dependencies": {
           "WatsonTcp": {
             "target": "Package",
-            "version": "[4.1.12.3, )"
+            "version": "[4.1.12.4, )"
           }
         },
         "imports": [

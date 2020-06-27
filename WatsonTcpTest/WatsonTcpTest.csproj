@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="WatsonTcp" Version="4.1.12.3" />
+    <PackageReference Include="WatsonTcp" Version="4.1.12.4" />
   </ItemGroup>
 
 </Project>

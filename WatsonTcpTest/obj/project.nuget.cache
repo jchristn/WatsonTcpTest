@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9z2CWUx/vuU9eG6tTLyT2dYyXVXQy/YkP1wQJL+P0WHX447YFFXJnqcNvxNRnE+FfRSMfB/tgYXyaJRF/sO5pw==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\Watson\\WatsonTcpTest\\WatsonTcpTest\\WatsonTcpTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joelc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\joelc\\.nuget\\packages\\watsontcp\\4.1.12.4\\watsontcp.4.1.12.4.nupkg.sha512"
+  ],
+  "logs": []
+}
