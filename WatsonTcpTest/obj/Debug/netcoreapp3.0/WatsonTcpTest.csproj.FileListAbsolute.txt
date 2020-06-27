@@ -1,0 +1,15 @@
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\netcoreapp3.0\WatsonTcpTest.exe
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\netcoreapp3.0\WatsonTcpTest.deps.json
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\netcoreapp3.0\WatsonTcpTest.runtimeconfig.json
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\netcoreapp3.0\WatsonTcpTest.runtimeconfig.dev.json
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\netcoreapp3.0\WatsonTcpTest.dll
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\netcoreapp3.0\WatsonTcpTest.pdb
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\netcoreapp3.0\WatsonTcp.dll
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\netcoreapp3.0\WatsonTcpTest.csprojAssemblyReference.cache
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\netcoreapp3.0\WatsonTcpTest.AssemblyInfoInputs.cache
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\netcoreapp3.0\WatsonTcpTest.AssemblyInfo.cs
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\netcoreapp3.0\WatsonTcpTest.csproj.CopyComplete
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\netcoreapp3.0\WatsonTcpTest.dll
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\netcoreapp3.0\WatsonTcpTest.pdb
+c:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\netcoreapp3.0\WatsonTcpTest.genruntimeconfig.cache
