@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using WatsonTcp;
 
 namespace WatsonTcpTest
@@ -20,6 +22,8 @@ namespace WatsonTcpTest
                     server.Logger = Logger;
                     Console.WriteLine("Starting server...");
                     server.Start();
+
+                    Thread.Sleep(2500);
 
                     using (var client = new WatsonTcpClient("127.0.0.1", Port))
                     {
