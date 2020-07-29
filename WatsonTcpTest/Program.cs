@@ -9,7 +9,7 @@ namespace WatsonTcpTest
     class Program
     {
         private static int Port = 42512;
-        private static CompressionType CompType = CompressionType.Deflate;
+        private static CompressionType CompType = CompressionType.Gzip;
 
         static void Main(string[] args)
         {
