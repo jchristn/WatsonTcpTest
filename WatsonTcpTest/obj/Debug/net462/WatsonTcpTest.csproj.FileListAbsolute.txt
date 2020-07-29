@@ -1,0 +1,11 @@
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\net462\WatsonTcpTest.exe.config
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\net462\WatsonTcpTest.exe
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\net462\WatsonTcpTest.pdb
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\net462\Newtonsoft.Json.dll
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\bin\Debug\net462\WatsonTcp.dll
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\net462\WatsonTcpTest.AssemblyInfoInputs.cache
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\net462\WatsonTcpTest.AssemblyInfo.cs
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\net462\WatsonTcpTest.csproj.CopyComplete
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\net462\WatsonTcpTest.exe
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\net462\WatsonTcpTest.pdb
+C:\code\watson\WatsonTcpTest\WatsonTcpTest\obj\Debug\net462\WatsonTcpTest.csprojAssemblyReference.cache

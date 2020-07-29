@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "WatsonTcpTest/1.0.0": {
         "dependencies": {
-          "WatsonTcp": "4.1.12.4"
+          "WatsonTcp": "4.1.12.5"
         },
         "runtime": {
           "WatsonTcpTest.dll": {}
@@ -22,14 +22,14 @@
           }
         }
       },
-      "WatsonTcp/4.1.12.4": {
+      "WatsonTcp/4.1.12.5": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/WatsonTcp.dll": {
-            "assemblyVersion": "4.1.12.4",
-            "fileVersion": "4.1.12.4"
+            "assemblyVersion": "4.1.12.5",
+            "fileVersion": "4.1.12.5"
           }
         }
       }
@@ -48,12 +48,12 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "WatsonTcp/4.1.12.4": {
+    "WatsonTcp/4.1.12.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XFd99d3dmrfcxplUp+B+7/yNVNn+ajIvNO7WKKK0y5Sian+iu3cqXZ+5zKBfGK55CR7L5QGyuk2oBmxg9En9JA==",
-      "path": "watsontcp/4.1.12.4",
-      "hashPath": "watsontcp.4.1.12.4.nupkg.sha512"
+      "sha512": "sha512-+bv5fK+5UTbWiR+Tg59QAEYzl0n/VpF0UyueWj1kX5e5raTpoH+0hHZ1TNkG+3PRk/IblACkdV97zukRI60xeQ==",
+      "path": "watsontcp/4.1.12.5",
+      "hashPath": "watsontcp.4.1.12.5.nupkg.sha512"
     }
   }
 }

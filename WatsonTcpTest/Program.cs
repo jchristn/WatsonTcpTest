@@ -9,47 +9,55 @@ namespace WatsonTcpTest
     class Program
     {
         private static int Port = 42512;
+        private static CompressionType CompType = CompressionType.Deflate;
 
         static void Main(string[] args)
         {
             try
             {
-                using (var server = new WatsonTcpServer("127.0.0.1", Port))
+                var watsonServer = new WatsonTcpServer("127.0.0.1", Port)
                 {
-                    server.ClientConnected += (s, client) => Console.WriteLine("Client connected");
-                    server.ClientDisconnected += (s, client) => Console.WriteLine("Client connected");
-                    server.MessageReceived += (s, message) => Console.WriteLine("Message received: " + Encoding.UTF8.GetString(message.Data));
-                    server.Logger = Logger;
-                    Console.WriteLine("Starting server...");
-                    server.Start();
+                    Compression = CompType,
+                    Logger = Console.WriteLine,
+                    DebugMessages = true
+                };
 
-                    Thread.Sleep(2500);
+                watsonServer.MessageReceived += (sender, message) =>
+                {
+                    Console.WriteLine("Server received message: " + Encoding.UTF8.GetString(message.Data));
+                    watsonServer.Send(message.IpPort, message.Data);
+                };
 
-                    using (var client = new WatsonTcpClient("127.0.0.1", Port))
-                    {
-                        client.MessageReceived += (o, s) => Console.WriteLine("Message received");
-                        client.Logger = Logger;
-                        Console.WriteLine("Connecting client...");
-                        client.Start();
+                watsonServer.Start();
+                Task.Delay(1000).Wait();
 
-                        if (!client.Connected) return;
-                        else Console.WriteLine("Client connected");
+                var client = new WatsonTcpClient("127.0.0.1", Port)
+                {
+                    Compression = CompType,
+                    Logger = Console.WriteLine,
+                    DebugMessages = true
+                };
+                 
+                client.MessageReceived += (sender, message) =>
+                {
+                    Console.WriteLine("Client received message: " + Encoding.UTF8.GetString(message.Data)); 
+                };
 
-                        Console.WriteLine("Sending data...");
-                        client.Send("Test");
-                        Console.ReadLine();
-                    }
+                client.Start();
+                Task.Delay(1000).Wait();
+
+                for (int i = 0; i < 10; i++)
+                {
+                    client.Send("Hello " + i);
+                    Task.Delay(250).Wait();
                 }
+
+                Console.ReadLine();
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
             }
-        }
-
-        static void Logger(string msg)
-        {
-            Console.WriteLine(msg);
-        }
+        } 
     }
 }
